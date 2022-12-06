@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAuth.Api", "RestAuth.Api\RestAuth.Api.csproj", "{864B963D-0030-4122-86EA-10CD7308D03E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{7C6B1DED-42FC-403B-96D6-BD892BBA1F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{5AA7E603-F655-4D64-A91D-6A168B2F8E01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repositories", "3 - Repositories", "{5F78995E-42F5-4E85-9FC4-2BFEC7ED77B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{FB0A7069-F5D1-4B21-BFF5-CCAC92D43895}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAuth.Domain", "RestAuth.Domain\RestAuth.Domain.csproj", "{59623772-2806-49A7-8068-CDB40F1962C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAuth.Business", "RestAuth.Business\RestAuth.Business.csproj", "{EB9E2976-3F73-4BB4-A3C9-B9AAD0DA7096}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAuth.Data", "RestAuth.Data\RestAuth.Data.csproj", "{705678DA-E746-4A2D-9FF1-69041639EABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5BEA256-17B6-4F79-8D1B-1F1B9E3FD513}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864B963D-0030-4122-86EA-10CD7308D03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864B963D-0030-4122-86EA-10CD7308D03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864B963D-0030-4122-86EA-10CD7308D03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864B963D-0030-4122-86EA-10CD7308D03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59623772-2806-49A7-8068-CDB40F1962C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59623772-2806-49A7-8068-CDB40F1962C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59623772-2806-49A7-8068-CDB40F1962C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59623772-2806-49A7-8068-CDB40F1962C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9E2976-3F73-4BB4-A3C9-B9AAD0DA7096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9E2976-3F73-4BB4-A3C9-B9AAD0DA7096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9E2976-3F73-4BB4-A3C9-B9AAD0DA7096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9E2976-3F73-4BB4-A3C9-B9AAD0DA7096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705678DA-E746-4A2D-9FF1-69041639EABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705678DA-E746-4A2D-9FF1-69041639EABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705678DA-E746-4A2D-9FF1-69041639EABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705678DA-E746-4A2D-9FF1-69041639EABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{864B963D-0030-4122-86EA-10CD7308D03E} = {7C6B1DED-42FC-403B-96D6-BD892BBA1F2D}
+		{59623772-2806-49A7-8068-CDB40F1962C2} = {FB0A7069-F5D1-4B21-BFF5-CCAC92D43895}
+		{EB9E2976-3F73-4BB4-A3C9-B9AAD0DA7096} = {5AA7E603-F655-4D64-A91D-6A168B2F8E01}
+		{705678DA-E746-4A2D-9FF1-69041639EABD} = {5F78995E-42F5-4E85-9FC4-2BFEC7ED77B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA94D895-AA70-46E7-9496-EAB297956EFA}
+	EndGlobalSection
+EndGlobal
